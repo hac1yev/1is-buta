@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1is.az</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- SEO TAGS -->
+    <meta name="website" content="https://www.1is.az" />
+    <meta property="og:title" content="1is.az - Güncəl İş Elanları və Vakansiyalar">
+    <meta property="og:description" content="İş üçün gəl, rəqabət üçün qal">
+    <meta property="og:image" content="./images/1iş-logo.png" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://1is.az/" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- HEADER -->
+  <header>
+    <nav>
+        <div class="header-logo">
+            <div class="ham-menu">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+                </div> 
+            </div>
+            <a href="../index.html"><img src="../images/1iş-logo.png" alt=""></a>
+        </div>
+
+
+        <div class="darkLight-searchBox">
+        <div class="header-right-side">
+            <div class="menu-items">
+                <ul>
+                    <li><a href="./vacancy-all.html">İş Elanları</a></li>
+                    <li><a href="./jobsearchers.html">İş Axtaranlar</a></li>
+                    <li><a href="./company-all.html">Şirkətlər</a></li>
+                    <li><a href="">Təlimlər</a></li>
+                    <li><a href="./blog.html">Bloq</a></li>
+                    <li><a href="https://employment.az/">Employment</a></li>
+                    
+                </ul>
+            </div>
+            <div class="lang-div">
+                <div class="dropdown">
+                    <div class="select">
+                      <span class="selected">AZ</span>
+                      <div class="caret"></div>
+                    </div>
+                    <ul class="menu">
+                      <li>AZ</li>
+                      <li>EN</li>
+                      <li class="active">RU</li>
+                    </ul>
+                </div>
+                <div class="dark-mode"></div>
+                <div class="profile">
+                    <a href="./profile.html">
+                        <img src="../images/profile.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </nav>
+  </header>
+
+<!-- LOGIN SECTION -->
+    <section class="login-section">
+        <div class="login-background">
+            <div class="login-authentification">
+                <img src="../images/oneJob-login.png" alt="oneJob-login" />
+                <div class="log-reg-tabs-wrapper">
+                    <div class="log-reg-tabs">
+                        <div class="log-tab active" id="log_tab">Log in</div>
+                        <div class="reg-tab" id="reg_tab">Sign in</div>
+                    </div>
+                </div>
+                <form action="#" class="row login-form" id="login_form">
+                    <div class="form-group login-form-group col-lg-10 col-md-10">
+                        <label for="login_email">E-poçt<span style="color: rgba(192, 0, 0, 1)">*</span></label>
+                        <input type="email" id="login_email" required placeholder="E-poçt ünvanını daxil et" />
+                    </div>
+                    <div class="form-group login-form-group col-lg-10 col-md-10">
+                        <label for="login_password">Şifrə<span style="color: rgba(192, 0, 0, 1)">*</span></label>
+                        <input type="password" id="login_password" required placeholder="Şifrəni daxil et" />
+                    </div>
+                    <div class="login-bottom">
+                        <div class="remember-me-checkbox">
+                            <input type="checkbox" />
+                            <label for="">Remember me</label>
+                        </div>
+                        <a class="forgot-password" href="#">Şifrəni Unutmusunuz?</a>
+                    </div>
+                    <div class="col-lg-10 col-md-10 login-buttons">
+                        <button class="login-registration">Qeydiyyatdan keçin</button>
+                        <span>və ya</span>
+                        <button class="login-google-registration">
+                            <img src="../images/google-play.png" alt="google-play" />
+                            Google ilə qeydiyyatdan keçin
+                        </button>
+                    </div>
+                </form>
+                <form action="#" class="row mx-0 register-form mt-4"  id="register_form">
+                    <div class="col-md-5 form-group login-form-group d-flex flex-column">
+                        <label for="reg_name">Ad</label>
+                        <input placeholder="Adınızı daxil et" type="text" id="reg_name" />
+                    </div>
+                    <div class="col-md-5 form-group login-form-group d-flex flex-column">
+                        <label for="reg_surname">Soyad</label>
+                        <input placeholder="Soyadınızı daxil et" type="text" id="reg_surname" />
+                    </div>
+                    <div class="form-group login-form-group col-lg-10 col-md-10">
+                        <label for="login_email">E-poçt<span style="color: rgba(192, 0, 0, 1)">*</span></label>
+                        <input type="email" id="login_email" required placeholder="E-poçt ünvanını daxil et" />
+                    </div>
+                    <div class="form-group login-form-group col-lg-10 col-md-10">
+                        <label for="login_password">Şifrə<span style="color: rgba(192, 0, 0, 1)">*</span></label>
+                        <input type="password" id="login_password" required placeholder="Şifrəni daxil et" />
+                    </div>
+                    <div class="login-bottom">
+                        <div class="remember-me-checkbox">
+                            <input type="checkbox" />
+                            <label for="">Remember me</label>
+                        </div>
+                        <a class="forgot-password" href="#">Şifrəni Unutmusunuz?</a>
+                    </div>
+                    <div class="col-lg-10 col-md-10 login-buttons">
+                        <button class="login-registration">Qeydiyyatdan keçin</button>
+                        <span>və ya</span>
+                        <button class="login-google-registration">
+                            <img src="../images/google-play.png" alt="google-play" />
+                            Google ilə qeydiyyatdan keçin
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+
+<div class="footer">
+    <div class="container footer-container">
+        <div class="row footer-row">
+            <div class="col-md-6 px-0 my-3">
+                <div class="footer-left">
+                    <div class="row w-100">
+                        <div class="col-lg-6 col-8 pl-0">
+                            <div class="footer-logo-social">
+                                <a href="../index.html"><img src="../images/footer-1iş.png" alt="footer-1is"></a>
+                                <span>Bizi İzləməyi unutma</span>
+                                <div class="footer-social">
+                                    <div><a href="#"><img src="../images/footer-fb.png" alt="fb"></a></div>
+                                    <div><a href="#"><img src="../images/footer-ig.png" alt="insta"></a></div>
+                                    <div><a href="#"><img src="../images/footer-li.png" alt="linkedin"></a></div>
+                                    <div><a href="#"><img src="../images/footer-yt.png" alt="youtube"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-6 footer-links-wrapper">
+                            <div class="footer-links">
+                                <h4>1iş.az</h4>
+                                <ul>
+                                    <li>
+                                        <a href="./vacancy-all.html">İş Elanları</a>
+                                    </li>
+                                    <li>
+                                        <a href="./jobsearchers.html">İş Axtaranlar</a>
+                                    </li>
+                                    <li>
+                                        <a href="./company-all.html">Şirkətlər</a>
+                                    </li>
+                                    <li>
+                                        <a href="./blog.html">Bloq</a>
+                                    </li>
+                                    <li>
+                                        <a href="./terms.html">İstifadə Şərtləri</a>
+                                    </li>
+                                    <li>
+                                        <a href="./policy.html">Məxfilik Siyasəti</a>
+                                    </li>
+                                    <li>
+                                        <a href="./contact.html">Əlaqə</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-0 my-3">
+                <div class="footer-right">
+                    <h3>Bildirişləri əldə et</h3>
+                    <p>Gələnlər qutunuzda ən son xəbərləri, yeniləmələri və xüsusi təklifləri almaq üçün bülletenimizə üzv olun.</p>
+                    <form action="">
+                        <div class="footer-input-group">
+                            <div class="footer-input-label">
+                                <label for="">Enter your email</label>
+                                <input type="email"  required />
+                            </div>
+                            <button>
+                                <img src="../images/footer-arrow.png" alt="arrow">
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container footer-bottom-container">
+            <span class="footer-span1">copyright@lorem2022</span>
+            <span>Bütün hüquqlar qorunur</span>
+            <span>Buta Grup tərəfindən hazırlanmışdır</span>
+        </div>
+    </div>
+  </div>
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/swiper-bundle.min.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/log-reg.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+<script>
+    const moreSearch = document.getElementById('detail-btn')
+    const moreSearchSect = document.getElementById('getshow')
+    moreSearch.addEventListener('click' , () => {
+        moreSearchSect.classList.toggle('filter-active');
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Axtaranlar</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/jobsearch.css">
+    <link rel="stylesheet" href="../css/main-filter.css">
+    <link rel="stylesheet" href="../css/companies-announces.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- HEADER -->
+    <header>
+        <nav>
+            <div class="header-logo">
+                <div class="ham-menu">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                    </div> 
+                </div>
+                <a href="../index.html"><img src="../images/1iş-logo.png" alt=""></a>
+            </div>
+    
+    
+            <div class="darkLight-searchBox">
+            <div class="header-right-side">
+                <div class="menu-items">
+                    <ul>
+                        <li><a href="./vacancy-all.html">İş Elanları</a></li>
+                        <li><a href="./jobsearchers.html">İş Axtaranlar</a></li>
+                        <li><a href="./company-all.html">Şirkətlər</a></li>
+                        <li><a href="#">Təlimlər</a></li>
+                        <li><a href="./blog.html">Bloq</a></li>
+                        <li><a href="https://employment.az/">Employment</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="lang-div">
+                    <div class="dropdown">
+                        <div class="select">
+                        <span class="selected">AZ</span>
+                        <div class="caret"></div>
+                        </div>
+                        <ul class="menu">
+                        <li>AZ</li>
+                        <li>EN</li>
+                        <li class="active">RU</li>
+                        </ul>
+                    </div>
+                    <div class="dark-mode"></div>
+                    <div class="profile">
+                        <a href="./profile.html">
+                            <img src="../images/profile.png" alt="">
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN PART -->
+    <section class="header-info">
+        <div>
+            <h3>İş Elanları </h3>
+        </div>
+        <form class="main-filter">
+            <div class="active-filter active-filter-jobsearchinner">
+                <div class="filter1">
+                    <img src="./images/search.png" alt="">
+                    <input class="filter-input" placeholder="Vəzifə, Şirkət, Lorem" type="search">
+                </div>
+                <div class="filter2">
+                    <button class="filter-searc">Axtar</button>
+                    <div id="detail-btn" class="detail-search"><img src="./images/more.png" alt=""> Ətraflı Axtarış</div>
+                </div>
+            </div>
+            <div class="disabled-filter disabled-filter-jobsearchinner" id="getshow">
+                <div class="row text-left pos-25 mt-header mt-2" >
+                    <div class="col-md-4 col-xs-3 button_mt button_mt_jobsearchinner">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">Kateqoriya</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">Şəhər</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">İş Axtaran</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">Təhsil</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">İş Təcrübəsi</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">İş Rejimi</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="edit-announce mt-3">
+        <div class="container edit-announce-container">
+            <form class="tab-pane row company-announce-form fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="form-group company-announce-input-group col-12">
+                    <label for="possession">Vəzifə</label>
+                    <input type="text" class="form-control" id="possession" placeholder="Adınızı daxil edin" required />
+                </div>
+                <div class="form-group company-announce-input-group col-12">
+                    <label for="city">Şəhər</label>
+                    <input type="text" class="form-control" id="city" placeholder="Soyadınızı daxil edin" required />
+                </div>
+                <div class="form-group company-announce-input-group col-md-6">
+                    <label for="category">Kateqoriya</label>
+                    <select class="form-control" id="category" required>
+                      <option value="" disabled selected>Seçin</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group company-announce-input-group col-md-6">
+                    <label for="work_graf">İş Rejimi</label>
+                    <select class="form-control" id="work_graf" required>
+                      <option value="" disabled selected>Seçin</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group company-announce-input-group col-md-5">
+                    <label for="min">Min. əmək haqqı (AZN)</label>
+                    <input type="number" class="form-control" id="min" placeholder="Min.əmək haqqı" required />
+                </div>
+                <div class="form-group company-announce-input-group col-md-5">
+                    <label for="max">Max. əmək haqqı (AZN)</label>
+                    <input type="number" class="form-control" id="max" placeholder="Max.əmək haqqı" required />
+                </div>
+                <div class="col-md-2 d-flex align-items-center justify-content-end mb-3">
+                    <label for="musahibe" class="musahibe-check-label">Müsahibə əsasında</label>
+                    <input type="checkbox" class="musahibe-check-input" id="musahibe" />
+                </div>
+                <div class="form-group company-announce-input-group col-md-3">
+                    <label for="education">Təhsil</label>
+                    <select class="form-control" id="education" required>
+                      <option value="" disabled selected>Bakalavr</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group company-announce-input-group col-md-3">
+                    <label for="age_min">Yaş (Mİn.)</label>
+                    <input type="number" class="form-control" id="age_min" placeholder="Yaş (Min.):" required />
+                </div>
+                <div class="form-group company-announce-input-group col-md-3">
+                    <label for="age_max">Yaş (Max.)</label>
+                    <input type="number" class="form-control" id="age_max" placeholder="Yaş (Max.):" required />
+                </div>
+                <div class="form-group company-announce-input-group col-md-3">
+                    <label for="work_exprience">İş təcrübəsi</label>
+                    <select class="form-control" id="work_exprience" required>
+                      <option value="" disabled selected>İş təcrübəsi</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group company-announce-input-group col-12">
+                    <label for="demands">Namizədə Tələblər</label>
+                    <textarea class="form-control" id="demands" rows="5" placeholder="Məlumat verin!" required></textarea>
+                </div>
+                <div class="form-group company-announce-input-group col-12">
+                    <label for="about_work">İş barəsində məlumat</label>
+                    <textarea class="form-control" id="about_work" rows="5" placeholder="Məlumat verin!" required></textarea>
+                </div>
+                <div class="form-group company-announce-input-group col-6">
+                    <label for="companies">Şirkətlər</label>
+                    <select class="form-control" id="companies" required>
+                      <option>Kapital Bank</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group company-announce-input-group col-6 pl-3">
+                    <label for="responsible_person">Əlaqədar şəxs</label>
+                    <input type="text" class="form-control" id="responsible_person" placeholder="Adınızı və soyadınızı qeyd edin" required />
+                </div>
+                <div class="form-group company-announce-input-group col-6">
+                    <label for="accept_cv">CV-lərin qəbulu</label>
+                    <select class="form-control" id="accept_cv" required>
+                      <option>Kapital Bank</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group col-6">
+                    <label class="side-link-label">Kecid linki</label>
+                    <a class="side-link" target="_blank" href="https://1is.az" >
+                        https://1is.az
+                    </a>
+                </div>
+                <div class="form-group company-announce-input-group col-12">
+                    <label for="end_date">Bitmə tarixi</label>
+                    <input type="date" class="form-control" id="end_date" required />
+                </div>
+                <div class="d-flex justify-content-end edit-announce-buttons col-12 my-4">
+                    <button class="delete-announce" type="submit">Elanı sil</button>
+                    <button class="save-announce" type="submit">Yadda saxla</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container footer-container">
+            <div class="row footer-row">
+                <div class="col-md-6 px-0 my-3">
+                    <div class="footer-left">
+                        <div class="row w-100">
+                            <div class="col-lg-6 col-8 pl-0">
+                                <div class="footer-logo-social">
+                                    <a href="../index.html"><img src="../images/footer-1iş.png" alt="footer-1is"></a>
+                                    <span>Bizi İzləməyi unutma</span>
+                                    <div class="footer-social">
+                                        <div><a href="#"><img src="../images/footer-fb.png" alt="fb"></a></div>
+                                        <div><a href="#"><img src="../images/footer-ig.png" alt="insta"></a></div>
+                                        <div><a href="#"><img src="../images/footer-li.png" alt="linkedin"></a></div>
+                                        <div><a href="#"><img src="../images/footer-yt.png" alt="youtube"></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-lg-6 footer-links-wrapper">
+                                <div class="footer-links">
+                                    <h4>1iş.az</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="./vacancy-all.html">İş Elanları</a>
+                                        </li>
+                                        <li>
+                                            <a href="./jobsearchers.html">İş Axtaranlar</a>
+                                        </li>
+                                        <li>
+                                            <a href="./company-all.html">Şirkətlər</a>
+                                        </li>
+                                        <li>
+                                            <a href="./blog.html">Bloq</a>
+                                        </li>
+                                        <li>
+                                            <a href="./terms.html">İstifadə Şərtləri</a>
+                                        </li>
+                                        <li>
+                                            <a href="./policy.html">Məxfilik Siyasəti</a>
+                                        </li>
+                                        <li>
+                                            <a href="./contact.html">Əlaqə</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 px-0 my-3">
+                    <div class="footer-right">
+                        <h3>Bildirişləri əldə et</h3>
+                        <p>Gələnlər qutunuzda ən son xəbərləri, yeniləmələri və xüsusi təklifləri almaq üçün bülletenimizə üzv olun.</p>
+                        <form action="">
+                            <div class="footer-input-group">
+                                <div class="footer-input-label">
+                                    <input type="email" placeholder="Enter your email" required />
+                                </div>
+                                <button>
+                                    <img src="../images/footer-arrow.png" alt="arrow">
+                                </button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <span class="footer-span1">copyright@lorem2022</span>
+                <span>Bütün hüquqlar qorunur</span>
+                <span>Buta Grup tərəfindən hazırlanmışdır</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/jobsearchers.js"></script>
+    <script src="../js/companies-announces.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script>
+        const moreSearch = document.getElementById('detail-btn')
+        const moreSearchSect = document.getElementById('getshow')
+        moreSearch.addEventListener('click', () => {
+            moreSearchSect.classList.toggle('filter-active');
+        })
+    </script>
+</body>
+
+</html>

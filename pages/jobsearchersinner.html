@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Axtaranlar</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/jobsearch.css">
+    <link rel="stylesheet" href="../css/main-filter.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- HEADER -->
+<header>
+    <nav>
+        <div class="header-logo">
+            <div class="ham-menu">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+                </div> 
+            </div>
+            <a href="../index.html"><img src="../images/1iş-logo.png" alt=""></a>
+        </div>
+  
+  
+        <div class="darkLight-searchBox">
+        <div class="header-right-side">
+            <div class="menu-items">
+                <ul>
+                    <li><a href="./vacancy-all.html">İş Elanları</a></li>
+                    <li><a href="./jobsearchers.html">İş Axtaranlar</a></li>
+                    <li><a href="./company-all.html">Şirkətlər</a></li>
+                    <li><a href="">Təlimlər</a></li>
+                    <li><a href="./blog.html">Bloq</a></li>
+                    <li><a href="https://employment.az/">Employment</a></li>
+                    
+                </ul>
+            </div>
+            <div class="lang-div">
+                <div class="dropdown">
+                    <div class="select">
+                      <span class="selected">AZ</span>
+                      <div class="caret"></div>
+                    </div>
+                    <ul class="menu">
+                      <li>AZ</li>
+                      <li>EN</li>
+                      <li class="active">RU</li>
+                    </ul>
+                </div>
+                <div class="dark-mode"></div>
+                <div class="profile">
+                    <a href="./profile.html">
+                        <img src="../images/profile.png" alt="">
+                    </a>
+                </div>
+            </div>
+  
+        </div>
+    </nav>
+  </header>
+
+    <!-- MAIN PART -->
+    <section class="header-info">
+        <div>
+            <h3>İş Axtaranlar </h3>
+        </div>
+        <form class="main-filter">
+            <div class="active-filter active-filter-jobsearchinner">
+                <div class="filter1">
+                    <img src="./images/search.png" alt="">
+                    <input class="filter-input" placeholder="Vəzifə, Şirkət, Lorem" type="search">
+                </div>
+                <div class="filter2">
+                    <button class="filter-searc">Axtar</button>
+                    <div id="detail-btn" class="detail-search"><img src="./images/more.png" alt=""> Ətraflı Axtarış</div>
+                </div>
+            </div>
+            <div class="disabled-filter disabled-filter-jobsearchinner" id="getshow">
+                <div class="row text-left pos-25 mt-header mt-2" >
+                    <div class="col-md-4 col-xs-3 button_mt button_mt_jobsearchinner">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">Kateqoriya</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">Şəhər</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">İş Axtaran</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">Təhsil</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">İş Təcrübəsi</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-3 button_mt">
+                        <div class="form-group mb-0">
+                            <div class="dropdown-comp-2">
+                                <div class="select_box">
+                                   <select class="vac-select" name="" id="" placeholder="Yenilər">
+                                    <option value="">İş Rejimi</option>
+                                    <option value="">Yeni2xsd</option>
+                                    <option value="">Yeni2xsda</option>
+                                    <option value="">Yeni2xwe</option>
+                                   </select>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-- JOBSEARCHER INFORMATION -->
+    <section class="jobsearcher-inner">
+        <div class="container jobsearcher-inner-container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="jobsearcher-profile">
+                        <div class="jobsearcher-profile-wrapper">
+                            <div class="jobsearcher-avatar">
+                                <img src="../images/jobsearch/job-search-card5.png" alt="jobsearcher-avatar">
+                            </div>
+                            <div class="jobsearcher-information">
+                                <div class="jobsearcher-text">
+                                    <h3>Jane Cooper</h3>
+                                    <p>Web Designer</p>
+                                </div>
+                            </div>
+                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.38092 12.2816L8.30584 12.3566L8.22325 12.2816C4.65696 9.04914 2.29945 6.91164 2.29945 4.74414C2.29945 3.24414 3.42565 2.11914 4.92724 2.11914C6.08347 2.11914 7.20967 2.86914 7.60759 3.88914H9.00408C9.402 2.86914 10.5282 2.11914 11.6844 2.11914C13.186 2.11914 14.3122 3.24414 14.3122 4.74414C14.3122 6.91164 11.9547 9.04914 8.38092 12.2816ZM11.6844 0.619141C10.378 0.619141 9.12421 1.22664 8.30584 2.17914C7.48747 1.22664 6.23363 0.619141 4.92724 0.619141C2.61478 0.619141 0.797852 2.42664 0.797852 4.74414C0.797852 7.57164 3.35057 9.88914 7.21718 13.3916L8.30584 14.3816L9.3945 13.3916C13.2611 9.88914 15.8138 7.57164 15.8138 4.74414C15.8138 2.42664 13.9969 0.619141 11.6844 0.619141Z"
+                                    fill="#8843E1" />
+                            </svg>
+                        </div>
+                        <form action="">
+                            <div class="input-cv">
+                                <label for="input-cv">
+                                    <span>CV Yüklə</span>
+                                    <input id="input-cv" type="file" style="visibility: hidden;" name="upload" accept="application/pdf" />
+                                    <img src="../images/jobsearch/input-download.png" alt="download" />
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-7 mt-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <header>İş Məlumatları</header>
+                                <div class="row w-100 m-0 job-information-row">
+                                    <div class="col-6">
+                                        <div class="job-information">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch6.png" alt="jbsrch1" />
+                                            </div>
+                                            <div>
+                                                <h5>İşlədiyi sahə</h5>
+                                                <p>Web Dizayner</p>
+                                            </div>
+                                        </div>
+                                        <div class="job-information">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch5.png" alt="jbsrch2" />
+                                            </div>
+                                            <div>
+                                                <h5>Təhsil</h5>
+                                                <p>Ali</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="job-information">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch6.png" alt="jbsrch1">
+                                            </div>
+                                            <div>
+                                                <h5>Iş Təcrübəsi</h5>
+                                                <p>1 il-dən az</p>
+                                            </div>
+                                        </div>
+                                        <div class="job-information">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch4.png" alt="jbsrch3" />
+                                            </div>
+                                            <div>
+                                                <h5>Min. Əmək Haqqı</h5>
+                                                <p>2800</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>  
+                        <div class="col-12 mt-3">
+                            <div>
+                                <header>Təhsil</header>
+                                <div class="row w-100 m-0 job-information-row">
+                                    <div class="col-12 d-flex justify-content-between align-items-center">
+                                        <div class="job-information w-75">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch6.png" alt="jbsrch1" />
+                                            </div>
+                                            <div>
+                                                <h5>Azərbaycan Dövlət Neft Və Sənaye Universiteti</h5>
+                                            </div>
+                                        </div>
+                                        <div class="job-information d-flex justify-content-center w-50">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch5.png" alt="jbsrch2" />
+                                            </div>
+                                            <div>
+                                                <p>16.09.2022</p>
+                                                <p>20.12.2022</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <div>
+                                <header>Bacarıqlar</header>
+                                <div class="jobsearcher-ability">
+                                    <span>Figma</span>
+                                    <span>Adobe Photoshop</span>
+                                    <span>Adobe İllustrator</span>
+                                    <span class="span4">Design</span>
+                                    <span class="span5">After Effects</span>
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>
+                        
+                </div>
+                <div class="col-md-5 mt-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <header>Təcrübə</header>
+                                <div class="row w-100 m-0 job-information-row2">
+                                    <div class="col-7 px-0">
+                                        <div class="job-information">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch6.png" alt="jbsrch1" />
+                                            </div>
+                                            <div>
+                                                <h5>Web Dizayner</h5>
+                                                <p>Freelance</p>
+                                            </div>
+                                        </div>
+                                        <div class="job-information mt-md-5 mt-sm-3 mt-xs-1">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch6.png" alt="jbsrch6" />
+                                            </div>
+                                            <div>
+                                                <h5>Web Dizayner</h5>
+                                                <p>Freelance</p>
+                                            </div>
+                                        </div>
+                                        <div class="job-information mt-md-5 mt-sm-3 mt-xs-1">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch6.png" alt="jbsrch6" />
+                                            </div>
+                                            <div>
+                                                <h5>Web Dizayner</h5>
+                                                <p>Freelance</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 px-0">
+                                        <div class="job-information">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch6.png" alt="jbsrch1">
+                                            </div>
+                                            <div>
+                                                <p>16.09.2022</p>
+                                                <p>20.12.2022</p>
+                                            </div>
+                                        </div>
+                                        <div class="job-information mt-md-5 mt-sm-3 mt-xs-1">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch4.png" alt="jbsrch3" />
+                                            </div>
+                                            <div>
+                                                <p>16.09.2022</p>
+                                                <p>20.12.2022</p>
+                                            </div>
+                                        </div>
+                                        <div class="job-information mt-md-5 mt-sm-3 mt-xs-1">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch4.png" alt="jbsrch3" />
+                                            </div>
+                                            <div>
+                                                <p>16.09.2022</p>
+                                                <p>20.12.2022</p>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <div>
+                                <header>Şəxsi məlumatlar</header>
+                                <div class="row w-100 m-0 job-information-row3">
+                                    <div class="col-12 px-0 d-flex justify-content-between align-items-center">
+                                        <div class="job-information w-75 last-job-information">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch6.png" alt="jbsrch1" />
+                                            </div>
+                                            <div>
+                                                <h5>Doğum Tarixi</h5>
+                                                <p>04 Aprel 2000</p>
+                                            </div>
+                                        </div>
+                                        <div class="job-information last-job-information d-flex justify-content-center">
+                                            <div class="job-information-img">
+                                                <img src="../images/jobsearch/jbsrch5.png" alt="jbsrch2" />
+                                            </div>
+                                            <div>
+                                                <h5>Ünvan</h5>
+                                                <p>Bakı...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+        
+    </section>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container footer-container">
+            <div class="row footer-row">
+                <div class="col-md-6 px-0 my-3">
+                    <div class="footer-left">
+                        <div class="row w-100">
+                            <div class="col-lg-6 col-8 pl-0">
+                                <div class="footer-logo-social">
+                                    <a href="../index.html"><img src="../images/footer-1iş.png" alt="footer-1is"></a>
+                                    <span>Bizi İzləməyi unutma</span>
+                                    <div class="footer-social">
+                                        <div><a href="#"><img src="../images/footer-fb.png" alt="fb"></a></div>
+                                        <div><a href="#"><img src="../images/footer-ig.png" alt="insta"></a></div>
+                                        <div><a href="#"><img src="../images/footer-li.png" alt="linkedin"></a></div>
+                                        <div><a href="#"><img src="../images/footer-yt.png" alt="youtube"></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-lg-6 footer-links-wrapper">
+                                <div class="footer-links">
+                                    <h4>1iş.az</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="./vacancy-all.html">İş Elanları</a>
+                                        </li>
+                                        <li>
+                                            <a href="./jobsearchers.html">İş Axtaranlar</a>
+                                        </li>
+                                        <li>
+                                            <a href="./company-all.html">Şirkətlər</a>
+                                        </li>
+                                        <li>
+                                            <a href="./blog.html">Bloq</a>
+                                        </li>
+                                        <li>
+                                            <a href="./terms.html">İstifadə Şərtləri</a>
+                                        </li>
+                                        <li>
+                                            <a href="./policy.html">Məxfilik Siyasəti</a>
+                                        </li>
+                                        <li>
+                                            <a href="./contact.html">Əlaqə</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 px-0 my-3">
+                    <div class="footer-right">
+                        <h3>Bildirişləri əldə et</h3>
+                        <p>Gələnlər qutunuzda ən son xəbərləri, yeniləmələri və xüsusi təklifləri almaq üçün bülletenimizə üzv olun.</p>
+                        <form action="">
+                            <div class="footer-input-group">
+                                <div class="footer-input-label">
+                                    <input type="email" placeholder="Enter your email"  required />
+                                </div>
+                                <button>
+                                    <img src="../images/footer-arrow.png" alt="arrow">
+                                </button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <span class="footer-span1">copyright@lorem2022</span>
+                <span>Bütün hüquqlar qorunur</span>
+                <span>Buta Grup tərəfindən hazırlanmışdır</span>
+            </div>
+        </div>
+      </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/jobsearchers.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script>
+        const moreSearch = document.getElementById('detail-btn')
+        const moreSearchSect = document.getElementById('getshow')
+        moreSearch.addEventListener('click', () => {
+            moreSearchSect.classList.toggle('filter-active');
+        })
+    </script>
+</body>
+
+</html>
